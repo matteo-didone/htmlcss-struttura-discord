@@ -8,7 +8,6 @@
 
 main
 {
-    background-color: red;
     height: 300px;
     flex-basis: 70%;
 }
@@ -16,6 +15,7 @@ main
 .container
 {
     display: flex;
+    flex-direction: column;
 }
 
 .margin-auto 
@@ -32,16 +32,55 @@ aside
 {
     background-color: blue;
     height: 300px;
-    flex-basis: 30%;
 }
 
 header 
-{
+{    
+    display: flex;
+    flex-direction: column;
     background-color: rgba(173,216,230,255);
-
 }
 
 footer
 {
-    background-color: rgba(173,216,230,255);
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(35,39,42,255);
+}
+
+.wrapper 
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#section-1 
+{
+    background-color: rgba(0,0,139,255);
+}
+
+#section-2
+{
+    background-color: rgba(255,255,255,255);
+}
+
+#section-3
+{
+    background-color: rgba(211,211,211,255);
+}
+
+#section-4
+{
+    background-color: rgba(255,255,255,255);
+}
+
+#section-5
+{
+    background-color: rgba(211,211,211,255);
+}
+
+#section-6
+{
+    background-color: rgba(35,39,42,255);
 }
