@@ -16,6 +16,7 @@ main
 {
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
 }
 
 .margin-auto 
@@ -28,17 +29,59 @@ main
     height: 100%;
 }
 
-aside
-{
-    background-color: blue;
-    height: 300px;
-}
-
 header 
 {    
     display: flex;
     flex-direction: column;
     background-color: rgba(173,216,230,255);
+    height: 50px;
+}
+
+ul
+{
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.whole-nav 
+{
+    background-color: rgba(218,165,32,255);
+    border: 1px;
+    border-style: dashed;
+    height: 60%;
+    width: 70%;
+    margin: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    display: grid;
+}
+
+.center-nav 
+{
+    background-color: rgba(218,165,32,255);
+    border-left: 2px;
+    border-right: 2px;
+    border-style: dashed;
+    height: 40%;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.side-nav 
+{
+    background-color: rgba(218,165,32,255);
+}
+
+#nav-left 
+{
+    text-align: left;
+}
+
+#nav-right 
+{
+    text-align: right;
 }
 
 footer
@@ -46,6 +89,12 @@ footer
     display: flex;
     flex-direction: column;
     background-color: rgba(35,39,42,255);
+    border-top: 2px;;
+    border-bottom: 1px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+    border-color: rgba(201,202,202,255);
 }
 
 .wrapper 
@@ -58,6 +107,11 @@ footer
 #section-1 
 {
     background-color: rgba(0,0,139,255);
+    border-bottom: 2px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+    border-color: rgba(173,216,230,255);
 }
 
 #section-2
@@ -78,9 +132,48 @@ footer
 #section-5
 {
     background-color: rgba(211,211,211,255);
+    height: 200%;
 }
 
 #section-6
 {
     background-color: rgba(35,39,42,255);
+}
+
+#container-section-1 
+{
+    margin: auto;
+    height: 80%;
+    width: 40%;
+    background-color: rgba(238,130,238,255);
+    border: 1px dashed;
+}
+
+#container-section-5 
+{
+    margin: auto;
+    height: 90%;
+    width: 45%;
+    background-color: rgba(34,139,34,255);
+    border: 1px dashed;
+}
+
+.inner-main
+{
+
+}
+
+.inner-aside
+{
+
+}
+
+.inner-main-section-6
+{
+
+}
+
+.inner-aside-section-6
+{
+    
 }
