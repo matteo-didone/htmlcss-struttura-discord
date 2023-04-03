@@ -197,22 +197,47 @@ footer
 
 }
 
+.inner-wrapper-section-6
+{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    margin-top: 0.5rem;
+    margin-bottom: -10px;
+}
+
 .inner-main-section-6
 {
     display: flex;
-    background-color: rgba(30,144,255,255);
+    background-color: rgba(32,178,170,255);
     height: 90%;
     border: 1px dashed;
-    flex-basis: 40%;
+    flex-basis: 45%;
+    width: calc(100%/4);
+    border: 1px dashed;
+    border-color: white;
 }
 
 .inner-aside-section-6
 {
     display: flex;
-    background-color: rgba(255,192,203,255);
+    background-color: rgba(240,128,128,255);
     height: 90%;
-    width: 25%;
+    width: 20%;
     border: 1px dashed;
+}
+
+.column
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-evenly;
+    height: 100%;
+    width: 25%;    
+    border: 1px dashed;
+    border-color: white;
 }
 
 .footer-container 
