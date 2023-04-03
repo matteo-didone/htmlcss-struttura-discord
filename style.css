@@ -39,7 +39,7 @@ ul
 
 li
 {
-    display: inline-block;
+    display: inline;
     width: 50%;
 }
 
@@ -61,10 +61,11 @@ li
     background-color: rgba(218,165,32,255);
     border-left: 2px;
     border-right: 2px;
+    border-bottom: 0px;
+    border-top: 0px;  
+    padding-left: 170px;
+    padding-right: 170px;
     border-style: dashed;
-    height: 40%;
-    width: 70%;
-    margin: auto;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -78,11 +79,15 @@ li
 
 #nav-left 
 {
+    margin-top: 0.30rem;
+    margin-left: 0.30rem;
     text-align: left;
 }
 
 #nav-right 
 {
+    margin-top: 0.30rem;
+    margin-right: 0.30rem;
     text-align: right;
 }
 
