@@ -6,6 +6,17 @@
 	box-Sizing: border-box;
 }
 
+/*Creo alcune classi di default molto utili*/
+.margin-auto
+{
+    margin: auto;
+}
+
+.height-100
+{
+    height: 100%;
+}
+
 main
 {
     height: 300px;
@@ -46,10 +57,10 @@ li
 .whole-nav 
 {
     background-color: rgba(218,165,32,255);
-    border: 1px;
+    border: 3px;
     border-style: dashed;
     height: 60%;
-    width: 70%;
+    width: 65%;
     margin: auto;
     flex-direction: row;
     justify-content: space-between;
